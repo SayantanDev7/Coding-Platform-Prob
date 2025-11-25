@@ -14,6 +14,7 @@ class Node {
 };
 class Solution {
   public:
+    //apporach is to do inorder traversal and store the values in the range
     void Find(Node* root,vector<int> &ans,int n1,int n2){
         if(!root)
             return;
