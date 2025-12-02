@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Definition for a binary tree node
 struct Node {
     int data;
     Node *left;
@@ -24,6 +25,7 @@ class Box{
         min = data;
         max = data;
     }
+    //overloaded constructor
     Box(bool bst,int sz,int mx,int mn){
         BST = bst;
         size = sz;
